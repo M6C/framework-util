@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/JevaESUI2001-03-03.jar" sourcepath="/FrameWork_Lib/JevaESUI2001-03-03/src"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/tools.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/ShowDTDTree.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/jel-2_0_1/lib/jel.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/xalan-j_2_7_1/serializer.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/xalan-j_2_7_1/xalan.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/xalan-j_2_7_1/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/xalan-j_2_7_1/xml-apis.jar"/>
+	<classpathentry kind="lib" path="/FrameWork_Lib/lib/xalan-j_2_7_1/xsltc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
