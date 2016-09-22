@@ -318,7 +318,9 @@ import sun.nio.ch.FileChannelImpl;
      public FileChannel   getChannel() {
      synchronized (this) {
          if (channel == null)
-         channel = FileChannelImpl.open(fd, false, true, this, append);
+//            channel = FileChannelImpl.open(fd, false, true, this, append);
+        	 // JDK 1.8
+         	channel = FileChannelImpl.open(fd, "", false, true, append);
          return channel;
      }
      }
