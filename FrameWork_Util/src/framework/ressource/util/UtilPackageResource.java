@@ -298,7 +298,7 @@ public class UtilPackageResource implements /*Sortable,*/Serializable {
    * zip file, null if there is a problem. Not public because zipTable
    * should contain only zip entries related to class path resources
    */
-  static ZipEntry[] getZipEntries(File file) {
+  public static ZipEntry[] getZipEntries(File file) {
     ZipEntry[] entries=null;
     synchronized(zipTable) {
       entries=(ZipEntry[])zipTable.get(file);
