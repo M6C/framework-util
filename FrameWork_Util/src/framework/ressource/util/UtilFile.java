@@ -117,7 +117,7 @@ public class UtilFile
         FilenameFilter filenameFilter = new FilenameFilter() {
             public boolean accept(File file, String string)
             {
-                return UtilFile.isExtFile(string, ext);
+                return (recursive && file.isDirectory()) || UtilFile.isExtFile(string, ext);
             }
         } ;
         return dir(path, recursive, filenameFilter, relative, withSubDirectory);
