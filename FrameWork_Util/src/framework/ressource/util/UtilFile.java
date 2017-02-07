@@ -70,10 +70,11 @@ public class UtilFile
 
     public static String formatPath(String path, String fileName)
     {
-        String ret = path;
-        if(UtilString.isNotEmpty(fileName))
-            ret = (new File(new File(path), fileName)).getPath();
-        return ret;
+        File ret = new File(path);
+        if(UtilString.isNotEmpty(fileName)) {
+            ret = new File(ret, fileName);
+        }
+        return ret.getPath();
     }
 
     public static String formatPath(String path)
